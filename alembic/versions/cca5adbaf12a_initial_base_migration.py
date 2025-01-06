@@ -1,8 +1,8 @@
-"""create admin_login table using sqlalchemy
+"""initial base migration
 
-Revision ID: 35e128f301ac
+Revision ID: cca5adbaf12a
 Revises: 
-Create Date: 2025-01-04 18:31:52.430598
+Create Date: 2025-01-06 14:55:58.029029
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '35e128f301ac'
+revision: str = 'cca5adbaf12a'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None

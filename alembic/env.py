@@ -9,7 +9,7 @@ from alembic import context
 from app.database.database import Base
 from dotenv import load_dotenv
 
-from app.models import jobs_list , admin_login
+from app.models import jobs
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

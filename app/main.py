@@ -1,5 +1,5 @@
 from fastapi import FastAPI, APIRouter
-from app.routers import admin_router
+from app.routers import jobs_route
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -25,7 +25,7 @@ def read_root():
 
 #router
 app.include_router(api_router)
-app.include_router(admin_router.router)
+app.include_router(jobs_route.router)
 
 if __name__ == "__main__":
     import uvicorn
