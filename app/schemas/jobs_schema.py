@@ -12,5 +12,4 @@ class JobCreate(BaseModel):
         orm_mode = True
     
 
-class JobResponse(JobCreate):
-    id: int
+
