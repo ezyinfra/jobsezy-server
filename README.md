@@ -39,5 +39,6 @@ This is the Python based backend service and you can find the frontend applicati
 
 1. Make sure your Postgres database is running
 2. Install the dependencies using the command `poetry install`
-3. Run the application using the command `poetry run uvicorn app.main:app --reload`
+3. Run the migrations using the command `alembic upgrade head`
+4. Run the application using the command `poetry run uvicorn app.main:app --reload`
 
